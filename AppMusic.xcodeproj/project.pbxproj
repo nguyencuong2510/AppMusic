@@ -12,6 +12,7 @@
 		5C29A2D61FEAD0AB003B5E8B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29A2D51FEAD0AB003B5E8B /* DetailViewController.swift */; };
 		5C29A2D81FEAD5A2003B5E8B /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29A2D71FEAD5A2003B5E8B /* ViewController1.swift */; };
 		5C29A2DA1FEAD5AB003B5E8B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C29A2D91FEAD5AB003B5E8B /* ViewController2.swift */; };
+		5C560CB21FEB55DD00800CAF /* CreateNextPause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C560CB11FEB55DD00800CAF /* CreateNextPause.swift */; };
 		5C8599D01FEA931200E10FF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8599CF1FEA931200E10FF0 /* AppDelegate.swift */; };
 		5C8599D21FEA931200E10FF0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8599D11FEA931200E10FF0 /* RootViewController.swift */; };
 		5C8599D51FEA931200E10FF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C8599D31FEA931200E10FF0 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		5C29A2D51FEAD0AB003B5E8B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5C29A2D71FEAD5A2003B5E8B /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		5C29A2D91FEAD5AB003B5E8B /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		5C560CB11FEB55DD00800CAF /* CreateNextPause.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNextPause.swift; sourceTree = "<group>"; };
 		5C8599CC1FEA931200E10FF0 /* AppMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8599CF1FEA931200E10FF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C8599D11FEA931200E10FF0 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				5C8599D31FEA931200E10FF0 /* Main.storyboard */,
+				5C560CB11FEB55DD00800CAF /* CreateNextPause.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				5C29A2D31FEAB5E0003B5E8B /* MainTableViewCell.swift in Sources */,
 				5C29A2D81FEAD5A2003B5E8B /* ViewController1.swift in Sources */,
 				5C8599D81FEA931200E10FF0 /* AppMusic.xcdatamodeld in Sources */,
+				5C560CB21FEB55DD00800CAF /* CreateNextPause.swift in Sources */,
 				5C8599FC1FEA997D00E10FF0 /* DataServiece.swift in Sources */,
 				5C29A2DA1FEAD5AB003B5E8B /* ViewController2.swift in Sources */,
 				5C8599D21FEA931200E10FF0 /* RootViewController.swift in Sources */,

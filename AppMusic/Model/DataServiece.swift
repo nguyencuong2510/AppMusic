@@ -13,8 +13,12 @@ typealias JSON = Dictionary<String, Any>
 class DataServiece {
     static let share: DataServiece = DataServiece()
     
-    //MARK: - List ViewController
+    //MARK: Detail ViewController
+    var showDetailListTable: Bool = true
+    var statePlay: Bool = false
     
+    
+    //MARK: - List ViewController
     let listIdentifies: [String] = ["ViewController1", "ViewController2"]
     
     //MARK: Song Main
@@ -26,9 +30,9 @@ class DataServiece {
             let photo2 = UIImage(named: "image2"),
             let photo1 = UIImage(named: "image1")
             else { return }
-        let object1 = Song(nameSong: "Alone", singerSong: "Alan Walker", imageSong: photo1)
-        let object2 = Song(nameSong: "Alone", singerSong: "Alan Walker", imageSong: photo2)
-        let object3 = Song(nameSong: "Alone", singerSong: "Alan Walker", imageSong: photo3)
+        let object1 = Song(nameSong: "Alone1", singerSong: "Alan Walker1", imageSong: photo1)
+        let object2 = Song(nameSong: "Alone2", singerSong: "Alan Walker2", imageSong: photo2)
+        let object3 = Song(nameSong: "Alone3", singerSong: "Alan Walker3", imageSong: photo3)
         for _ in 0...2 {
             listSong += [object1, object2, object3]
         }

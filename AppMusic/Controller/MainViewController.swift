@@ -7,10 +7,13 @@
 //
 
 import UIKit
+let nameNoti = NSNotification.Name.init(rawValue: "SelectCell")
 
 class MainViewController: UIViewController {
-    
     @IBOutlet weak var tableView: UITableView!
+    
+    var song: Song?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +23,7 @@ class MainViewController: UIViewController {
         
         DataServiece.share.songData()
     }
+    
     
 }
 
@@ -40,9 +44,14 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let myVC = UIStoryboard(name: "Main", bundle: nil)
-        let controller = myVC.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
-        self.present(controller, animated: true, completion: nil)
+        
+        NotificationCenter.default.post(name: nameNoti, object: nil, userInfo: ["message" : indexPath.row])
+        
+        
+//        let myVC = UIStoryboard(name: "Main", bundle: nil)
+//        let controller = myVC.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+//        controller.song = DataServiece.share.listSong[indexPath.row]
+//        self.present(controller, animated: true, completion: nil)
         
     }
     
